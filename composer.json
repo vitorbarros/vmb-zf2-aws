@@ -1,0 +1,19 @@
+{
+  "name": "vitorbarros/vmb-zf2-aws",
+  "description": "Package aws services",
+  "authors": [
+    {
+      "name": "Vitor Barros",
+      "email": "vitormonteirodebarros@gmail.com"
+    }
+  ],
+  "require": {
+    "aws/aws-sdk-php": "^3.20"
+  },
+  "autoload": {
+    "psr-0": {
+      "VMBAWS\\": "src/",
+      "AWSLIB\\":"vendor/aws/aws-sdk-php/src/"
+    }
+  }
+}
