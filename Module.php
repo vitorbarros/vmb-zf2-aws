@@ -1,3 +1,3 @@
 <?php
 
-require_once __DIR__ . '/src/vmb-zf2-aws/Module.php';
+require_once __DIR__ . '/src/VMBAWS/Module.php';
